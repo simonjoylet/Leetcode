@@ -1,17 +1,25 @@
-#ifndef Q2_H
-#define Q2_H
+// Author : Jianyun Sun
+// Email  : youyouransjy@gmail.com
+// Date	  : 2015-04-01
+
+
+/*
+	Leetcode : Add Two Numbers
+	Source   : https://leetcode.com/problems/add-two-numbers/
+	You are given two linked lists representing two non-negative numbers. 
+	The digits are stored in reverse order and each of their nodes contain a single digit. 
+	Add the two numbers and return it as a linked list.
+
+	Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
+	Output: 7 -> 0 -> 8
+*/
+
+
+#ifndef ADDTWONUMBERS_H
+#define ADDTWONUMBERS_H
 
 #include <iostream>
 using namespace std;
-/*
-You are given two linked lists representing two non-negative numbers. 
-The digits are stored in reverse order and each of their nodes contain a single digit. 
-Add the two numbers and return it as a linked list.
-
-Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
-Output: 7 -> 0 -> 8
-*/
-
 
 //Definition for singly - linked list.
 struct ListNode {
@@ -20,12 +28,11 @@ struct ListNode {
 	ListNode(int x) : val(x), next(NULL) {}
 };
 
-/******************************************************/
 /*
-解题思路：
-就是简单的链表操作，加上递归用法，注意递归结束条件即可。
+	方法一：递归
+	注意递归结束条件即可。
 */
-class Q2 
+class AddTwoNumbers_1 
 {
 public:
 	ListNode *addTwoNumbers(ListNode *l1, ListNode *l2) 
@@ -69,4 +76,8 @@ public:
 	}
 };
 
-#endif//Q2_H
+/*
+方法二：非递归
+*/
+
+#endif//ADDTWONUMBERS_H

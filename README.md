@@ -5,5 +5,5 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [cpp](./Leetcode/Q1/Q1.h) | Medium |
-| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [cpp](./Leetcode/Q2/Q2.h) | Medium |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./Leetcode/TwoSum/TwoSum.h) | Medium |
+| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [C++](./Leetcode/AddTwoNumbers/AddTwoNumbers.h) | Medium |

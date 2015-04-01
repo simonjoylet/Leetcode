@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{30526451-814A-4581-ACA8-0ECFEF19D280}</ProjectGuid>
+    <ProjectGuid>{47C21D7A-2F5C-456D-9851-A36B561838AD}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Leetcode</RootNamespace>
+    <RootNamespace>AddTwoNumbers</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -78,7 +78,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClInclude Include="AddTwoNumbers.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
