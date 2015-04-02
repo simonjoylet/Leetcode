@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TwoSum", "TwoSum\TwoSum.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZedTest", "ZedTest\ZedTest.vcxproj", "{EA034943-CE75-478F-A6F4-7B552A7FD5B8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LongestSubstringWithoutRepeatingCharacters", "LongestSubstringWithoutRepeatingCharacters\LongestSubstringWithoutRepeatingCharacters.vcxproj", "{BC8D5293-C15A-4D58-8D31-1532E17A2C1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +29,10 @@ Global
 		{EA034943-CE75-478F-A6F4-7B552A7FD5B8}.Debug|Win32.Build.0 = Debug|Win32
 		{EA034943-CE75-478F-A6F4-7B552A7FD5B8}.Release|Win32.ActiveCfg = Release|Win32
 		{EA034943-CE75-478F-A6F4-7B552A7FD5B8}.Release|Win32.Build.0 = Release|Win32
+		{BC8D5293-C15A-4D58-8D31-1532E17A2C1D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BC8D5293-C15A-4D58-8D31-1532E17A2C1D}.Debug|Win32.Build.0 = Debug|Win32
+		{BC8D5293-C15A-4D58-8D31-1532E17A2C1D}.Release|Win32.ActiveCfg = Release|Win32
+		{BC8D5293-C15A-4D58-8D31-1532E17A2C1D}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
