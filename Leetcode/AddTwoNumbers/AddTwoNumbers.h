@@ -77,7 +77,41 @@ public:
 };
 
 /*
-方法二：非递归
+	方法二：非递归
 */
-
+class AddTwoNumbers_2
+{
+public:
+	ListNode *addTwoNumbers(ListNode *l1, ListNode *l2)
+	{
+		ListNode * itNode = new ListNode(0);
+		ListNode * rstNode = itNode;
+		int jinwei = 0;
+		bool firstFlag = true;
+		while (l1 || l2 || jinwei)
+		{
+			if (firstFlag)
+			{
+				//因为之前已经new过了，所以第一次要跳过。
+				firstFlag = false;
+			}
+			else
+			{
+				itNode->next = new ListNode(0);
+				itNode = itNode->next;
+			}
+			
+			int val1 = (l1 ? l1->val : 0);
+			int val2 = (l2 ? l2->val : 0);
+			int shang = (val1 + val2 + jinwei) / 10;
+			int yu = (val1 + val2 + jinwei) % 10;
+			itNode->val = yu;
+			jinwei = shang;
+			l1 = (l1 ? l1->next : NULL);
+			l2 = (l2 ? l2->next : NULL);
+		}
+		
+		return rstNode;
+	}
+};
 #endif//ADDTWONUMBERS_H
