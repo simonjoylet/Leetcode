@@ -18,12 +18,11 @@
 */
 
 
-#ifndef TWOSUM_H
-#define TWOSUM_H
 #include <vector>
 #include <map>
+#include <unordered_map>
 #include <algorithm>
-
+using namespace std;
 /*
 	方法一：暴力搜索
 	时间复杂度是O(n2)
@@ -50,7 +49,7 @@ public:
 
 		return rst;
 	}
-}
+};
 
 /*
 	方法二：先排序，再两边逼近搜索。
@@ -118,9 +117,9 @@ public:
 
 		return rst;
 	}
-}
+};
 /*
-	方法三：使用哈希表（map）加速搜索。
+	方法三：使用哈希表（unordered_map）加速搜索。
 	暴搜的内层循环实际上就只是在做搜索。
 	我们可以用map把这层循环的复杂度从O(n)降为O(1)
 */
@@ -130,7 +129,7 @@ public:
 	vector<int> twoSum(vector<int> &numbers, int target)
 	{
 		vector<int> rst;
-		map<int, int> m;
+		unordered_map<int, int> m;
 		for (int i = 0; i < numbers.size(); ++i)
 		{
 			//这里其实应该考虑数值重复的情况，不过题目说只有一组解，因此暂时可以忽略。
@@ -150,5 +149,19 @@ public:
 
 		return rst;
 	}
+};
+
+
+int main()
+{
+	vector<int> numbers = { 2, 7, 11, 15 };
+	int target = 9;
+	TwoSum_3 s3;
+	vector<int> rst = s3.twoSum(numbers, target);
+	if (rst.size() == 2)
+	{
+		printf("%d %d\n", rst[0], rst[1]);
+	}
+	getchar();
+	return 0;
 }
-#endif//TWOSUM_H

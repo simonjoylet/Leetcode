@@ -11,8 +11,6 @@
 	which the length is 3. For "bbbbb" the longest substring is "b", with the length of 1.
 */
 
-#ifndef LongestSubstringWithoutRepeatingCharacters_h
-#define LongestSubstringWithoutRepeatingCharacters_h
 
 #include <vector>
 #include <map>
@@ -65,5 +63,3 @@ public:
 	方法二：应该可以借鉴KMP的思想解题。
 	不过KMP算法有点忘了，回头再研究一下。
 */
-
-#endif//LongestSubstringWithoutRepeatingCharacters
