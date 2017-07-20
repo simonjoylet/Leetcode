@@ -8,5 +8,5 @@
 | 1 | Two Sum | [C++](./Two_Sum.cpp) | Easy |
 | 2 | Add Two Numbers | [C++](./Add_Two_Numbers.cpp) | Medium |
 | 3 | Longest Substring Without Repeating Characters | [C++](./Longest_Substring_Without_Repeating_Characters.cpp) | Medium |
+| 28 | Implement strStr() | [C++](./implement_strstr.cpp) | Easy|
 | 125 | Valid Palindrome | [C++](./valid_palindrome.cpp)| Easy|
-
