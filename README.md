@@ -10,6 +10,7 @@
 | 3 | Longest Substring Without Repeating Characters | [C++](./Longest_Substring_Without_Repeating_Characters.cpp) | Medium |
 | 28 | Implement strStr() | [C++](./implement_strstr.cpp) | Easy|
 | 94 | Binary Tree Inorder Traversal | [C++](./inorder_traversal.cpp) | Mdeium |
+| 99 | Recover Binary Search Tree | [C++](./recover_bst.cpp) | Hard |
 | 102 | Binary Tree Level Order Traversal | [C++](./levelorder_traversal.cpp) | Mdeium |
 | 103 | Binary Tree Zigzag Level Order Traversal | [C++](./zigzag_levelorder_traversal.cpp) | Mdeium |
 | 107 | Binary Tree Level Order Traversal II| [C++](./levelorder_traversal_2.cpp) | Easy |
